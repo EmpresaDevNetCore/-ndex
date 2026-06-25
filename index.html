@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmpresaTI | Desenvolvimento de Software</title>
+    <meta name="description" content="EmpresaTI - Desenvolvimento de sistemas web, aplicativos, sites, APIs e soluções digitais sob medida." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Empresa<span>TI</span></div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p class="tag">Tecnologia para empresas que querem crescer</p>
+                <h1>Desenvolvimento de software sob medida para o seu negócio</h1>
+                <p>
+                    A EmpresaTI cria sistemas web, aplicativos, sites, APIs e soluções digitais modernas,
+                    seguras e escaláveis para empresas de todos os tamanhos.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contato" class="btn primary">Solicitar orçamento</a>
+                    <a href="#servicos" class="btn secondary">Ver serviços</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-software.svg" alt="Ilustração de desenvolvimento de software" />
+            </div>
+        </section>
+
+        <section id="servicos" class="section">
+            <div class="section-title">
+                <p>O que fazemos</p>
+                <h2>Soluções digitais completas</h2>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <img src="assets/web-system.svg" alt="Sistemas Web" />
+                    <h3>Sistemas Web</h3>
+                    <p>Desenvolvimento de sistemas corporativos, portais internos, dashboards e plataformas online.</p>
+                </article>
+
+                <article class="card">
+                    <img src="assets/mobile-app.svg" alt="Aplicativos Mobile" />
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Aplicativos Android e iOS com foco em performance, usabilidade e integração com APIs.</p>
+                </article>
+
+                <article class="card">
+                    <img src="assets/api-integration.svg" alt="APIs e Integrações" />
+                    <h3>APIs e Integrações</h3>
+                    <p>Criação e integração de APIs para conectar sistemas, automatizar processos e reduzir retrabalho.</p>
+                </article>
+
+                <article class="card">
+                    <img src="assets/landing-page.svg" alt="Sites e Landing Pages" />
+                    <h3>Sites e Landing Pages</h3>
+                    <p>Sites profissionais, páginas institucionais e landing pages para captação de clientes.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="about-image">
+                <img src="assets/team-work.svg" alt="Equipe trabalhando com tecnologia" />
+            </div>
+            <div class="about-content">
+                <p class="tag">Sobre a EmpresaTI</p>
+                <h2>Transformamos ideias em soluções digitais</h2>
+                <p>
+                    Atuamos com desenvolvimento de software personalizado, ajudando empresas a modernizar processos,
+                    melhorar a produtividade e criar novas oportunidades através da tecnologia.
+                </p>
+                <ul>
+                    <li>✔ Atendimento consultivo</li>
+                    <li>✔ Código limpo e escalável</li>
+                    <li>✔ Soluções modernas e seguras</li>
+                    <li>✔ Suporte na evolução do projeto</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Precisa tirar uma ideia do papel?</h2>
+            <p>Fale com a EmpresaTI e receba uma proposta para o seu projeto.</p>
+            <a href="#contato" class="btn primary">Entrar em contato</a>
+        </section>
+
+        <section id="contato" class="section contact">
+            <div class="section-title">
+                <p>Contato</p>
+                <h2>Solicite seu orçamento</h2>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" id="nome" placeholder="Seu nome" required />
+                <input type="email" id="email" placeholder="Seu e-mail" required />
+                <input type="text" id="telefone" placeholder="WhatsApp / Telefone" required />
+                <textarea id="mensagem" rows="5" placeholder="Conte um pouco sobre o projeto" required></textarea>
+                <button type="submit" class="btn primary">Enviar pelo WhatsApp</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="anoAtual"></span> EmpresaTI. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

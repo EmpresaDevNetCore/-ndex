@@ -1,0 +1,12 @@
+<svg width="600" height="420" viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="420" rx="30" fill="#EAF1FF"/>
+<rect x="80" y="70" width="440" height="260" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+<rect x="80" y="70" width="440" height="48" rx="18" fill="#2563EB"/>
+<circle cx="112" cy="94" r="7" fill="#FFFFFF"/><circle cx="136" cy="94" r="7" fill="#BFDBFE"/><circle cx="160" cy="94" r="7" fill="#93C5FD"/>
+<text x="125" y="175" font-size="28" fill="#0F172A" font-family="Arial" font-weight="700">&lt; EmpresaTI /&gt;</text>
+<rect x="125" y="205" width="160" height="16" rx="8" fill="#CBD5E1"/>
+<rect x="125" y="235" width="280" height="16" rx="8" fill="#CBD5E1"/>
+<rect x="125" y="265" width="230" height="16" rx="8" fill="#CBD5E1"/>
+<circle cx="450" cy="250" r="44" fill="#DBEAFE"/>
+<path d="M430 250l14 14 30-34" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
